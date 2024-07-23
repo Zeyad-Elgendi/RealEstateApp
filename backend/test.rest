@@ -1,0 +1,30 @@
+###
+GET http://localhost:13000/
+###
+
+POST http://localhost:13000/
+Content-Type: application/json
+
+{
+    "name": "Apartment - || Latini SED",
+    "address":"Al Alamein, Egypt",
+    "price": 5415000,
+    "downPayment":1200000,
+    "installmentYears" : 10,
+  "area": "250 sqm",
+  "reference_no": "REF456",
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "delivery_in": "2024-06-15T00:00:00.000Z",
+  "finishing": "Finished",
+  "finished": true,
+  "compound": "Compound amogus",
+  "sale_type": "ReSale",
+  "finishing_type": "Dwelling"
+}
+
+###
+GET http://localhost:13000/setup
+###
+GET http://localhost:13000/flat/2
+###
